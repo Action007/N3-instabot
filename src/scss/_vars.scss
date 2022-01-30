@@ -1,0 +1,21 @@
+$main: #808080;
+$title: #1a1a1a;
+$white: #fff;
+$btn: #4789eb;
+
+%visuelt-400 {
+  font-family: "VisueltPro", sans-serif;
+  font-weight: 400;
+}
+
+%visuelt-500 {
+  font-family: "VisueltPro", sans-serif;
+  font-weight: 500;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
